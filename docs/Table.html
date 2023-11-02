@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all style.css"><!--style for this page-->
+    <link rel="stylesheet" href="../css/style4.css"><!--style for navbar and footer-->
+</head>
+<body>
+  <header>
+    <nav>
+        <ul class="navbar"><!--start navigation link pages-->
+          <div class="logo"><img src="../imgs/fc.jpg" alt="log" width="100" height="100"><!--page logo-->
+            <p id="lo">World-Cup</p></div>
+       <li><a href="../index.html">home</a></li> 
+       <li><a href="AboutUS.html">aboutus</a></li> 
+       <li><a href="Comment.html">comment</a></li> 
+       <li><a href="Table.html">table</a></li>
+       
+    </ul>
+    </nav> <!--and navigation bar to link pages-->
+    
+  </header>
+    <h2 class="headen">Enter the data in the table </h2>
+ <form id="dataForm"><!--form to input the data for the table-->
+   <label for="name">FristName:</label>
+   <input type="text" id="name" required>
+   <label for="name">LastName:</label>
+   <input type="text" id="lastname" required>
+   <label for="age">Age:</label>
+   <input type="number" id="age" required>
+   <label for="email">Email:</label>
+   <input type="email" id="email" required >
+   <label for="nname">Sexual:</label>
+   <input type="text" id="nname" required>
+   <button type="submit"><i>add</i></button><!--submit the data-->
+ </form>
+
+ <table id="dataTable"><!--start table for data entry-->
+<caption class="cap1"><h2>User list</h2></caption>
+  <thead>
+    <tr>
+      
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Gge</th>
+      <th scope="col">Email</th>
+      <th scope="col">Sexual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bassam</td>
+      <td>alhaddad</td>
+      <td>20</td>
+      <td>bassam@gmail.com</td>
+      <td>yameny</td>
+    </tr> 
+  </tbody><!--end table for data entry-->
+</table>
+<footer id="d1"><!--footer to page information-->
+  <h3> @BASSAM-ALHADDAD </h3>
+  <h3 id="fc">@World-Cup</h3>
+  </footer>
+
+  <script src="../js/js4.js"></script> <!--javascript link-->    
+</body>
+</html>

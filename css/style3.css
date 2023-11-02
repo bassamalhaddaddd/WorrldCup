@@ -1,0 +1,55 @@
+body{
+    background-image: url(../imgs/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100%;
+    height: auto;
+  }
+.counter {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+#data-form{
+    background-color: rgb(85, 222, 58);
+    color: rgb(25, 10, 10);
+    margin: 10px auto;
+}
+#h1{
+
+    color: brown;
+    text-align: center;
+}
+form{
+    text-align: center;
+    display: grid;
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(211, 201, 201);
+    color: rgb(14, 13, 13);
+}
+form input{
+    background-color: rgb(21, 126, 187);
+}
+form textarea{
+background-color: yellow;
+}
+form input[type="file"]{
+    width: 150px;
+    margin: 0 auto;
+}
+form button{
+    width: 100px;
+    margin: 0 auto;
+}
+#data{
+
+    background-color: rgb(238, 28, 13);
+}
+span{
+    color: rgb(10, 13, 212);
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/all style.css"><!--style for this page-->
+    <link rel="stylesheet" href="../css/style2.css"><!--style for navbar and footer-->
+</head>
+<body>
+    <header>
+        <nav><!--start navigation link pages-->
+            <ul class="navbar">
+              <div class="logo"><img src="../imgs/fc.jpg" alt="log" width="100" height="100"><!--page logo-->
+                <p id="lo">World-Cup</p></div>
+           <li><a href="../index.html">home</a></li> 
+           <li><a href="AboutUS.html">about</a></li> 
+           <li><a href="Comment.html">comment</a></li> 
+           <li><a href="Table.html">table</a></li>
+           
+        </ul>
+        </nav><!--and navigation bar to link pages-->
+        
+      </header>
+      <div class="loges"><!--page logo for description-->
+        <img src="../imgs/fc.jpg" alt="Logo" width="100" height="100">
+        <p>World-Cup</p>
+        </div>
+
+    <section id="aboutUs"><!--start section to description the wep-->
+        
+      <h2>Lionel Messi story with World Cup</h2>
+      <p>Messi's Messe was a very frustrating World Cup I lost the final at the German team in 2014 and after that he was looking for Hatta arrived only 2018 and had strictly beaten by Croatia from the role of 8 and decided to retire internationally The Argentine fans came out of falsehood to continue to play for the Argenen and then decided to return</p>
+      <p>The World Cup 2022 in Qatar, Messi, decided when Banan, will be the last World Cup in which he will participate in his new journey, when he lost his first match against the Saudi team, Misse's anger and he said with a statement to the masses that he will not let them down and then said The complex and final between Argentina and the Fans and Fenir were exposed to the victory of Argentina with the penalty shootout and Messi then became the best player in the tier</p>
+
+
+
+        <button id="contactButton" onclick="toggleForm()">Contact Us</button><!--javascript to make the user enter tis data to contact us-->
+      
+        <form id="contactForm" style="display: none;" onsubmit="submitForm(event)">
+          <label for="first name">First Name:</label>
+          <input type="text" id="first name" required>
+
+          <label for="secend name">Secend Name:</label>
+          <input type="text" id="secend name" required>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message"  required></textarea>
+      
+          <input type="submit" value="Clilk My"><!--submit the data-->
+        </form>
+      
+        <p id="confirmationMessage" style="display: none;">Thanks for the communication!</p><!--displlay a message to the user-->
+      </section>
+      <!--and section to description the wab-->
+  
+      <footer id="d1"><!--footer to page information-->
+        <h3> @BASSAM-ALHADDAD </h3>
+        <h3 id="fc">@World-Cup</h3>
+        </footer>
+      <script src="../js/js2.js"></script><!--javascript link-->
+</body>
+</html>
